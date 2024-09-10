@@ -1,0 +1,194 @@
+[
+    {
+        "latitude": 1.2986,
+        "longitude": 103.77590000000004,
+        "building": "NUS (RIDGE VIEW RESIDENTIAL COLLEGE (RVRC))",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.31115,
+        "longitude": 103.7201,
+        "building": "NUS (RIDGE VIEW RESIDENTIAL COLLEGE (RVRC))",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.3713000000000002,
+        "longitude": 103.77590000000002,
+        "building": "NUS (RIDGE VIEW RESIDENTIAL COLLEGE (RVRC))",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.3184,
+        "longitude": 103.77430000000003,
+        "building": "NUS (RIDGE VIEW RESIDENTIAL COLLEGE (RVRC))",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    },
+    {
+        "latitude": 1.2882500000000001,
+        "longitude": 103.83729999999996,
+        "building": "NUS BABA HOUSE",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.3008000000000002,
+        "longitude": 103.7201,
+        "building": "NUS BABA HOUSE",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.3609499999999999,
+        "longitude": 103.78680000000001,
+        "building": "NUS BABA HOUSE",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.30805,
+        "longitude": 103.77430000000003,
+        "building": "NUS BABA HOUSE",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    },
+    {
+        "latitude": 1.36345,
+        "longitude": 103.7034,
+        "building": "NUS CENTRE FOR ANIMAL RESOURCES (CARE)",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.376,
+        "longitude": 103.70340000000003,
+        "building": "NUS CENTRE FOR ANIMAL RESOURCES (CARE)",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.43615,
+        "longitude": 103.70340000000003,
+        "building": "NUS CENTRE FOR ANIMAL RESOURCES (CARE)",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.3832499999999999,
+        "longitude": 103.70340000000003,
+        "building": "NUS CENTRE FOR ANIMAL RESOURCES (CARE)",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    },
+    {
+        "latitude": 1.2957500000000002,
+        "longitude": 103.77599999999998,
+        "building": "NUS ENTERPRISE CENTRE",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.3083,
+        "longitude": 103.72010000000002,
+        "building": "NUS ENTERPRISE CENTRE",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.3684500000000002,
+        "longitude": 103.77599999999998,
+        "building": "NUS ENTERPRISE CENTRE",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.31555,
+        "longitude": 103.77430000000001,
+        "building": "NUS ENTERPRISE CENTRE",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    },
+    {
+        "latitude": 1.3031,
+        "longitude": 103.77060000000003,
+        "building": "NUS HIGH BOARDING SCHOOL",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.31565,
+        "longitude": 103.7201,
+        "building": "NUS HIGH BOARDING SCHOOL",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.3758,
+        "longitude": 103.77060000000004,
+        "building": "NUS HIGH BOARDING SCHOOL",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.3229,
+        "longitude": 103.77060000000003,
+        "building": "NUS HIGH BOARDING SCHOOL",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    },
+    {
+        "latitude": 1.3027,
+        "longitude": 103.77009999999997,
+        "building": "NUS HIGH SCHOOL OF MATHEMATICS AND SCIENCE",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.31525,
+        "longitude": 103.7201,
+        "building": "NUS HIGH SCHOOL OF MATHEMATICS AND SCIENCE",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.3754000000000002,
+        "longitude": 103.77009999999999,
+        "building": "NUS HIGH SCHOOL OF MATHEMATICS AND SCIENCE",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.3224999999999998,
+        "longitude": 103.77009999999999,
+        "building": "NUS HIGH SCHOOL OF MATHEMATICS AND SCIENCE",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    },
+    {
+        "latitude": 1.2984499999999999,
+        "longitude": 103.7725,
+        "building": "NUS INFORMATION TECHNOLOGY (NUS IT)",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.311,
+        "longitude": 103.72010000000002,
+        "building": "NUS INFORMATION TECHNOLOGY (NUS IT)",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.3711499999999999,
+        "longitude": 103.77250000000002,
+        "building": "NUS INFORMATION TECHNOLOGY (NUS IT)",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.31825,
+        "longitude": 103.77250000000001,
+        "building": "NUS INFORMATION TECHNOLOGY (NUS IT)",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    },
+    {
+        "latitude": 1.3003500000000001,
+        "longitude": 103.7725,
+        "building": "NUS MUSEUM",
+        "carpark": "DHOBY GHAUT CARPARK"
+    },
+    {
+        "latitude": 1.3129,
+        "longitude": 103.72010000000003,
+        "building": "NUS MUSEUM",
+        "carpark": "INNATE MONTESSORI @ CP PTE LTD"
+    },
+    {
+        "latitude": 1.37305,
+        "longitude": 103.77250000000001,
+        "building": "NUS MUSEUM",
+        "carpark": "REPUBLIC POLYTECHNIC (ENERGY CENTRE & MULTI STOREY CARPARK)"
+    },
+    {
+        "latitude": 1.32015,
+        "longitude": 103.77250000000002,
+        "building": "NUS MUSEUM",
+        "carpark": "TOH YI DRIVE MULTI STOREY CARPARK"
+    }
+]

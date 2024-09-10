@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地图上的多个经纬度点</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script>
+        // 初始化地图
+        var map = L.map('map').setView([1.295755, 103.776695], 11);  // 新加坡中心坐标
+
+        // 添加OpenStreetMap图层
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // 自定义红色图标
+        var redIcon = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+
+        // 读取JSON文件
+        fetch('suitable_locations.json')  // 确保文件名正确
+            .then(response => response.json())
+            .then(data => {
+                // 创建一个图层组来存储所有标记
+                var markersGroup = L.featureGroup();
+
+                // 遍历JSON数据中的每个坐标点
+                data.forEach(point => {
+                    // 在地图上添加红色标记
+                    var marker = L.marker([point.latitude, point.longitude], {icon: redIcon}).addTo(markersGroup);
+                    
+                    // 添加弹出窗口
+                    marker.bindPopup(`<b>${point.building}</b><br>停车场: ${point.carpark}`);
+                });
+
+                // 将所有标记添加到地图上
+                markersGroup.addTo(map);
+
+                // 调整地图视图以适应所有标记
+                map.fitBounds(markersGroup.getBounds());
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('加载数据时出错，请检查控制台以获取更多信息。');
+            });
+    </script>
+</body>
+</html>
